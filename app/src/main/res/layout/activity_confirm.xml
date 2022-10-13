@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".ConfirmActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KONFIRMASI PENDAFTARAN\NLOMBA PROGRAMING"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:padding="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text=":"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/tv_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Tampung Nama"
+                android:textSize="17sp"
+                android:layout_marginStart="16dp"
+                />
+
+
+        </TableRow>
+
+        <TableRow android:padding="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jenis Kelamin"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="17sp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:id="@+id/tv_jk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tampung Jenis Kelamin"
+                android:textSize="17sp"
+                android:layout_marginStart="16dp"
+                />
+
+
+        </TableRow>
+
+        <TableRow android:padding="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Whatsapp"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="17sp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:id="@+id/tv_nowa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="no whatsapp"
+                android:textSize="17sp"
+                android:layout_marginStart="16dp"
+                />
+
+
+        </TableRow>
+
+        <TableRow android:padding="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="17sp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:id="@+id/tv_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:textSize="17sp"
+                android:layout_marginStart="16dp"
+                />
+
+
+        </TableRow>
+
+        <TableRow android:padding="6dp">
+
+            <Button
+                android:id="@+id/btntanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilih Tanggal"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="17sp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:id="@+id/tv_tanggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="17sp"
+                android:layout_marginStart="16dp"
+                />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnkonfirmasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konfirmasi"
+        android:layout_marginTop="32dp"
+        />
+        </LinearLayout>
